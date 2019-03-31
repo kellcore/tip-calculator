@@ -1,5 +1,28 @@
+.dollar-sign {
+  font-family: $primaryFont;
+  font-size: 26px;
+  font-weight: bold;
+  color: $darkGray;
+}
+.input-text {
+  font-family: $primaryFont;
+  font-size: 26px;
+  font-weight: bold;
+}
 .buttons {
-    font-family: $primaryFont;
-    font-size: 26px;
-    font-weight: bold;
+  font-family: $primaryFont;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 2rem;
+  background-color: $darkGray;
+  color: $lightGray;
+}
+.active {
+  background-color: $moneyGreen;
+}
+#tip,
+#total-bill {
+  font-family: $primaryFont;
+  font-size: 36px;
+  font-weight: bold;
 }

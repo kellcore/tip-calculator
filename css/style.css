@@ -350,6 +350,9 @@ main .bill {
   padding: 5rem;
   border-bottom: solid 2px black;
 }
+main .text {
+  text-align: center;
+}
 
 header {
   background-color: #008F17;
@@ -370,12 +373,40 @@ footer {
   color: #000000;
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 2rem;
+}
+
+.dollar-sign {
+  font-family: "Roboto Slab";
+  font-size: 26px;
+  font-weight: bold;
+  color: #A4A4A4;
+}
+
+.input-text {
+  font-family: "Roboto Slab";
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .buttons {
   font-family: "Roboto Slab";
   font-size: 26px;
+  font-weight: bold;
+  padding: 2rem;
+  background-color: #A4A4A4;
+  color: #E5E5E5;
+}
+
+.active {
+  background-color: #008F17;
+}
+
+#tip,
+#total-bill {
+  font-family: "Roboto Slab";
+  font-size: 36px;
   font-weight: bold;
 }
 
