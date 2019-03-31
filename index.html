@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+</head>
+<body>
+   <header> Tip Calculator </header> 
+   <main>
+        <section>
+        <div class="bill">
+                <div class="text">
+             <p> How much was your bill? </p>
+             
+                 $
+                 <input type="text" id="bill-amount" required> </input>
+             </div>
+        </section>
+        <section>
+        <div class="bill">
+            <div class="text">
+                <p> What percentage do you want to tip? </p>
+                <div class="buttons">
+                <button type="button"> 10% </button>
+                <button type="button"> 15% </button>
+                <button type="button"> 20% </button>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section>
+             <div class="bill">
+            <div class="text">
+                <p> Total tip </p>
+                <output> </output>
+            </div>
+        </div>
+        </section>
+    </main>
+   <footer> 
+       <p> Total bill </p>
+       <div class="output">
+        <output> </output>
+       </div>
+        </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
