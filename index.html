@@ -17,8 +17,10 @@
             <div class="bill">
                 <div class="text">
                     <p> How much was your bill? </p>
+                    <div class="input-row">
                     <span class="dollar-sign"> $ </span>
                     <input type="number" id="bill-amount" required class="input-text"> </input>
+                </div>
                 </div>
         </section>
         <section>
@@ -50,3 +52,11 @@
 </body>
 
 </html>
+
+<!-- Jeff's Notes
+
+Your button babies are beautiful!! But they need a flex parent around them so they can display side-by-side, regardless if you're on desktop, tablet, 
+or mobile. Right now, if I pinch the screen to mobile, the third button gets pushed down to a second row.
+
+You're placing display:flex on your regions, but it might be needed. Try to use display:flex only when you want your child items to display side-by-side
+-->
