@@ -343,6 +343,11 @@ main {
   font-size: 18px;
   font-style: italic;
   margin: 0 auto;
+  /* .button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  } */
 }
 main .bill {
   justify-content: center;
@@ -378,7 +383,6 @@ footer {
   font-style: italic;
   font-size: 18px;
   color: #000000;
-  display: flex;
   justify-content: center;
   text-align: center;
   padding: 2rem;
